@@ -17,7 +17,7 @@ public class UniqueIdGenerator_Tests
         // Assert
         //Assert.NotNull(result);
         Assert.NotEmpty(result);
-        Assert.True(Guid.TryParse(result, out _)); //out = det genereade värdet
+        Assert.True(Guid.TryParse(result, out _)); //out = det genereade värdet. _ = Discard
         //Assert.True(Guid.TryParse(result, out Guid id));
         //Assert.IsType<string>(id.ToString());
 
